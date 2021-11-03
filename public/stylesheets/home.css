@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("/images/yelp3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.cover-container {
+  max-width: 60vw;
+}
+
+.nav-link {
+  padding: 0.25rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 1rem;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.active {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+.btn-secondary,
+.btn-secondary:hover {
+  color: black;
+  font-weight: 600;
+  background-color: #ced4da;
+}
+
+.lead {
+  font-family: "Roboto", sans-serif;
+}
